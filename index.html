@@ -11,11 +11,11 @@
       font-family: Arial, sans-serif;
       background: #0f172a;
       color: white;
-      text-align: center;
     }
 
     .container {
       padding: 80px 20px;
+      text-align: center;
     }
 
     h1 {
@@ -28,6 +28,7 @@
     }
 
     .btn {
+      display: inline-block;
       margin-top: 20px;
       padding: 12px 24px;
       background: #22c55e;
@@ -36,15 +37,55 @@
       border-radius: 8px;
       font-weight: bold;
     }
+
+    .section {
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    iframe {
+      margin-top: 20px;
+      border-radius: 12px;
+    }
   </style>
 </head>
 
 <body>
+
+  <!-- HERO -->
   <div class="container">
     <h1>Hi, I'm Shaheer 👋</h1>
     <p>I create high-converting video edits & content systems</p>
-
-    <a class="btn" href="#">View My Work</a>
+    <a class="btn" href="#portfolio">View My Work</a>
   </div>
+
+  <!-- PORTFOLIO -->
+  <div class="section" id="portfolio">
+    <h2>My Work 🎬</h2>
+
+    <iframe width="300" height="170"
+      src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
+      frameborder="0" allowfullscreen>
+    </iframe>
+
+  </div>
+
+  <!-- ABOUT -->
+  <div class="section">
+    <h2>What I Do</h2>
+    <p>
+      I help creators and businesses increase retention, engagement, 
+      and conversions through high-quality video editing.
+    </p>
+  </div>
+
+  <!-- CONTACT -->
+  <div class="section">
+    <h2>Work With Me</h2>
+    <a class="btn" href="https://wa.me/918891503242">
+      Message Me on WhatsApp
+    </a>
+  </div>
+
 </body>
 </html>
